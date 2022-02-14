@@ -31,5 +31,7 @@
 5. `git push origin main` - timto prikazem nahraju na git
 6. chce to po me heslo, zadam heslo
 
+## GIT PULL
 
+- prikazem `git pull` si to muzu z gitu stahnout do IDE
 
