@@ -20,7 +20,7 @@ end architecture dataflow;
 3. Complete table with logic functions' values:
 
 | **c** | **b** |**a** | **f(c,b,a)** | **f_NAND(c,b,a)** | **f_NOR(c,b,a)** | **f_1(z,y,x) left** | **f_1(z,y,x) right** | **f_2(z,y,x) left** | **f_2(z,y,x) right** |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0 | 0 | 1 |  |  | 0 | 0 | 0 | 0 |
 | 0 | 0 | 1 | 1 |  |  | 0 | 0 | 1 | 1 |
 | 0 | 1 | 0 | 0 |  |  | 0 | 0 | 0 | 0 |
