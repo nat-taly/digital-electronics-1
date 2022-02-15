@@ -1,6 +1,6 @@
 # Lab 1: NATALIE VYCHODILOVA
 
-### De Morgan's laws
+### De Morgan's laws zmena
 
 1. Equations of all three versions of logic function f(c,b,a):
 
