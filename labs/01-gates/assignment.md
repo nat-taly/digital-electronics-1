@@ -15,6 +15,16 @@ begin
     f_nand_o <= -- WRITE YOUR CODE HERE
     f_nor_o  <= -- WRITE YOUR CODE HERE
 end architecture dataflow;
+
+architecture dataflow of distributiveLaws is
+begin
+    aL_o  <= (x_i and y_i) or (x_i and z_i);
+    aP_o  <= (x_i and (y_i or z_i));
+    
+    bL_o  <= ((x_i or y_i) and (x_i or z_i));
+    bP_o  <= (x_i or (y_i and z_i));
+
+end architecture dataflow;
 ```
 
 3. Complete table with logic functions' values:
