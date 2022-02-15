@@ -9,6 +9,7 @@
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
 ```vhdl
+--morganovy zakony:
 architecture dataflow of demorgan is
 begin
     f_o      <= (not b_i and a_i) or (not c_i and not b_i);
@@ -16,7 +17,7 @@ begin
     f_nor_o  <= -- WRITE YOUR CODE HERE
 end architecture dataflow;
 
---pro distribucni zakony
+--distribucni zakony (design):
 architecture dataflow of distributiveLaws is
 begin
     aL_o  <= (x_i and y_i) or (x_i and z_i);
