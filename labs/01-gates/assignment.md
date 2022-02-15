@@ -16,6 +16,7 @@ begin
     f_nor_o  <= -- WRITE YOUR CODE HERE
 end architecture dataflow;
 
+--pro distribucni zakony
 architecture dataflow of distributiveLaws is
 begin
     aL_o  <= (x_i and y_i) or (x_i and z_i);
