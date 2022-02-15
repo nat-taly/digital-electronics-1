@@ -4,7 +4,7 @@
 
 1. Equations of all three versions of logic function f(c,b,a):
 
-   ![Logic function](images/fce.jpg)
+   ![Logic function](images/funkce.jpg)
 
 2. Listing of VHDL architecture from design file (`design.vhd`) for all three functions. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
@@ -13,8 +13,8 @@
 architecture dataflow of demorgan is
 begin
     f_o      <= (not b_i and a_i) or (not c_i and not b_i);
-    f_nand_o <= -- WRITE YOUR CODE HERE
-    f_nor_o  <= -- WRITE YOUR CODE HERE
+    f_nand_o <= ((not b_i nand a_i) nand (not c_i nand not b_i))
+    f_nor_o  <= (b_i nor (a_i nor not c_i))
 end architecture dataflow;
 
 --distribucni zakony (design):
