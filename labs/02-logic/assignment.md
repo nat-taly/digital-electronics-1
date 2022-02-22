@@ -31,7 +31,7 @@
         -- First test case
         --My VUT ID: 230911
         s_b <= "0001"; -- 1 DEC to BCD -> 0001
-        s_a <= "0001";        -- 1 DEC to BCD -> 0001
+        s_a <= "0001"; -- 1 DEC to BCD -> 0001
         wait for 100 ns;
         
         -- Expected output
