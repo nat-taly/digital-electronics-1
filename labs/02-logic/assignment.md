@@ -29,13 +29,16 @@
         report "Stimulus process started" severity note;
 
         -- First test case
-        s_b <= "BCD_OF_YOUR_SECOND_LAST_ID_DIGIT"; -- Such as "0101" if ID = xxxx56
-        s_a <= "BCD_OF_YOUR_LAST_ID_DIGIT";        -- Such as "0110" if ID = xxxx56
+        --My VUT ID: 230911
+        s_b <= "0001"; -- 1 DEC to BCD -> 0001
+        s_a <= "0001";        -- 1 DEC to BCD -> 0001
         wait for 100 ns;
+        
         -- Expected output
-        assert ((s_B_greater_A = 'WRITE_CORRECT_VALUE_HERE') and
-                (s_B_equals_A  = 'WRITE_CORRECT_VALUE_HERE') and
-                (s_B_less_A    = 'WRITE_CORRECT_VALUE_HERE'))
+        assert ((s_B_greater_A = '0') and
+                (s_B_equals_A  = '1') and
+                (s_B_less_A    = '0'))
+                
         -- If false, then report an error
         report "Input combination COMPLETE_THIS_TEXT FAILED" severity error;
 
