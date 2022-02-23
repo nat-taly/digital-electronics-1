@@ -50,7 +50,14 @@
 
 2. Text console screenshot during your simulation, including reports.
 
-   ![your figure]()
+   1. Correct simulation:
+
+   ![Correct](images/correct.png)
+
+   2. Error simulation:
+
+   ![Error](images/error.png)
+
 
 3. Link to your public EDA Playground example:
 
