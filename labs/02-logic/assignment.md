@@ -52,7 +52,7 @@
 
    1. Correct simulation:
 
-   ![Correct](images/correct.png)
+   ![Correct](images/corect.png)
 
    2. Error simulation:
 
