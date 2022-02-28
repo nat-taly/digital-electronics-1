@@ -1,4 +1,4 @@
-# Lab 3: NATÁLIE VYCHODILOVÁ
+# Lab 3: NATALIE VYCHODILOVA
 
 ### Three-bit wide 4-to-1 multiplexer
 
