@@ -39,8 +39,7 @@
 
    ![your figure](images/sim.PNG)
 
-### LED(7:4) indicators
-1. Truth table: 
+### Truth table for LEDs(7:4)
 | **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0000 | 1 | 0 | 0 | 0 |
@@ -60,7 +59,8 @@
 | E | 1110 | 0 | 1 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 0 |
 
-2. Listing of LEDs(7:4) part of VHDL architecture from source file `top.vhd`. Try to write logic functions as simple as possible. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
+### LED(7:4) indicators
+1. Listing of LEDs(7:4) part of VHDL architecture from source file `top.vhd`. Try to write logic functions as simple as possible. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
    ```vhdl
    -- Display input value on LEDs
