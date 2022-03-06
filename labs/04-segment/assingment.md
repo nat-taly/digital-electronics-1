@@ -47,11 +47,11 @@
    -- Display input value on LEDs
     -- Experiments on your own: LED(7:4) indicators
 
-    -- Turn LED(4) on if input value is equal to 0, ie "0000"
+    -- Turn LED(4) on if input value is equal to 0 (0 because we turn on LED by 0)
        LED(4) <= '0' when (SW = "0000");
 
     -- Turn LED(5) on if input value is greater than "1001", ie 10, 11, 12, ...
-       LED(5) <= not((SW(3) and SW(1)) or (SW(3) and SW(2)));
+       LED(5) <= '0' when (SW > "1001");
 
     -- Turn LED(6) on if input value is odd, ie 1, 3, 5, ...
        LED(6) <= '0' when (SW(0)='1');
