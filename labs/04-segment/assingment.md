@@ -41,7 +41,7 @@
 
 ### LED(7:4) indicators
 1. Truth table: 
-|Hex	|Inputs	|LED4	|LED5	|LED6	|LED7|
+| **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
 | :-:   | :-:   | :-:   | :-:   | :-:   | :-: | 
 |0	|0000	|1	|0	|0	|0|
 |1	|0001	|0	|0	|1	|1|
