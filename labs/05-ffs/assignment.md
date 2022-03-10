@@ -7,22 +7,20 @@
 ```vhdl
 architecture Behavioral of t_ff_rst is
 signal s_q : std_logic;
-signal s_q_bar : std_logic;
 begin
     p_t_ff_rst : process(clk)
     begin
         if rising_edge(clk) then  -- Synchronous process
             if(rst='1') then 
                 s_q     <= '0';
-                s_q_bar <= '1';
+                q       <= '0';
+                q_bar   <= '1';
             else
-                if(t='0') then
-                    s_q <= s_q;
-                    s_q_bar <= s_q_bar;
-                else
-                    s_q <= not s_q;
-                    s_q_bar <= not s_q_bar;
-            end if;  
+                s_q     <= (t and not (s_q)) or (not (t) and s_q);
+                q       <= s_q;
+                q_bar   <= not s_q;
+                
+      
             end if;   
         end if;
         
