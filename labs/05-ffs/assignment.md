@@ -19,11 +19,8 @@ begin
                 s_q     <= (t and not (s_q)) or (not (t) and s_q);
                 q       <= s_q;
                 q_bar   <= not s_q;
-                
-      
             end if;   
         end if;
-        
     end process p_t_ff_rst;
 end architecture Behavioral;
 ```
