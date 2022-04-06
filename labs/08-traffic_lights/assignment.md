@@ -9,12 +9,12 @@
 2. Listing of VHDL code of the completed process `p_traffic_fsm`. Always use syntax highlighting, meaningful comments, and follow VHDL guidelines:
 
 ```vhdl
-    --------------------------------------------------------
-    -- p_traffic_fsm:
-    -- The sequential process with synchronous reset and 
-    -- clock_enable entirely controls the s_state signal by 
-    -- CASE statement.
-    --------------------------------------------------------
+--------------------------------------------------------
+-- p_traffic_fsm:
+-- The sequential process with synchronous reset and 
+-- clock_enable entirely controls the s_state signal by 
+-- CASE statement.
+--------------------------------------------------------
 p_traffic_fsm : process(clk)
     begin
         if rising_edge(clk) then
