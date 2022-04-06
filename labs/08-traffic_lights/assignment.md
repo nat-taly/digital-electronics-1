@@ -101,6 +101,9 @@
 
 1. State table for smart controller using two sensors and two traffic lights in three colors.
 
-Attempt | #1 | #2 | #3 | #4 | #5 | #6 | #7 | #8 | #9 | #10 | #11
---- | --- | --- | --- |--- |--- |--- |--- |--- |--- |--- |---
-Seconds | 301 | 283 | 290 | 286 | 289 | 285 | 287 | 287 | 272 | 276 | 269
+current state | lights | values | no cars | west | south | both 
+--- | --- | --- | --- |--- |--- |--- 
+WEST_GO | RED, GREEN | 100, 010 | WEST_GO | WEST_GO | WEST_WAIT | WEST_WAIT
+WEST_WAIT | RED, YELLOW | 100, 110 | WEST_WAIT | WEST_WAIT | WEST_WAIT | WEST_WAIT 
+SOUTH_GO | GREEN, RED | 010, 100 | SOUTH_GO | SOUTH_WAIT | SOUTH_GO | SOUTH_WAIT
+SOUTH_WAIT | YELLOW, RED | 110, 100 | SOUTH_WAIT | SOUTH_WAIT | SOUTH_WAIT | SOUTH_WAIT 
