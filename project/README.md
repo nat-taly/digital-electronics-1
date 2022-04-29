@@ -1,20 +1,17 @@
 # FREQUENCY COUNTER OF SQUARE AND HARMONIC SIGNAL
 ### Team members
 
-Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
-
 * Natalie Vychodilova (Responsible for creating design sources: 
 binary to bcd converter, controller for 8 digits, hex to segment. 
 Responsible for creating testbenches for all designs, simulation all sources. creating schematics and documentation.)
 
-* Monika Vlkova (Responsible for xxx)
+* Monika Vlkova (Responsible for xxx **MONI DOPSAT**)
 
-* Peto Kondas (Responsible for xxx)
+* Peto Kondas (Responsible for xxx **PETO DOPSAT**)
 
-* Radek Vomocil (Responsible for creating design source frequency counter, creating testbench file.)
+* Radek Vomocil (Responsible for creating design source frequency counter, creating testbench file. **RADA KDYZTAK NECO PRIDAT**)
 
 Link to your GitHub project folder:
-
    [https://github.com/...](https://github.com/...)
 
 
@@ -40,7 +37,7 @@ nahráván na desku Nexys A7-50T. K otestování signálu byl k dispozici oscilo
 <a name="hardware"></a>
 ## Hardware description
 Write your text here.
-
+**PETO MONI NEKDO Z VAS VYTVORIT A UDELAT**
 
 <a name="modules"></a>
 ## VHDL modules description and simulations
@@ -61,8 +58,6 @@ end number_7seg;
 ```
 * Pravdivostní tabulka pro kombinace na vstupu 0-9. Pokud je na vstupu jiná kombinace, než číslice
 0-9 nic se nezobrazí.
-
-
 
 | Number |  Input  |  A  |  B  |  C  |  D  |  E  |  F  |  G  |
 |:------:|:-------:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
@@ -176,6 +171,7 @@ end bin_to_bcd ;
 ![simulation bin to bcd](images/simulation_bin_to_bcd.png)
 
 ### Modul *frequency_counter.vhd*
+**RADA TOHLE JE TEN BLOK, CO JSI DELAL TY, TAK HO POPIS (ZKUS U TOHO MIT STEJNY DESIGN JAK JA**)
 Write your text here.
 
 <a name="top"></a>
@@ -212,7 +208,9 @@ end entity top;
 
 <a name="video"></a>
 ## Video
+**VIDEJKO, PRIPRAVTE SE NA TO, ZE HO BUDETE TOCIT VY (JA NE)**
 
 
 <a name="references"></a>
 ## References
+**SEM HODTE ODKAZY, ODKUD JSTE BRALY TY HARDWARE INFORMACE, I TREBA STRANKY KDE JSME NECO ZAJIMAVEHO NASLI**
