@@ -1,0 +1,14 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+C:/Users/vycho/Desktop/project/project/project.srcs/sim_1/new/tb_bin_to_bcd.vhd,1651243408,vhdl,,,,tb_bin_to_bcd,,,,,,,,
+C:/Users/vycho/Desktop/project/project/project.srcs/sim_1/new/tb_controler_7seg.vhd,1651218328,vhdl,,,,tb_controler_7seg,,,,,,,,
+C:/Users/vycho/Desktop/project/project/project.srcs/sim_1/new/tb_frequency_counter.vhd,1651235053,vhdl,,,,tb_frequency_counter,,,,,,,,
+C:/Users/vycho/Desktop/project/project/project.srcs/sim_1/new/tb_number_7seg.vhd,1651244638,vhdl,,,,tb_number_7seg,,,,,,,,
+C:/Users/vycho/Desktop/project/project/project.srcs/sources_1/new/bin_to_bcd.vhd,1651240177,vhdl,C:/Users/vycho/Desktop/project/project/project.srcs/sources_1/new/frequency_counter.vhd,,,bin_to_bcd,,,,,,,,
+C:/Users/vycho/Desktop/project/project/project.srcs/sources_1/new/clock_enable.vhd,1651216776,vhdl,C:/Users/vycho/Desktop/project/project/project.srcs/sources_1/new/controler_7seg.vhd,,,clock_enable,,,,,,,,
+C:/Users/vycho/Desktop/project/project/project.srcs/sources_1/new/cnt_up_down.vhd,1651217205,vhdl,C:/Users/vycho/Desktop/project/project/project.srcs/sources_1/new/controler_7seg.vhd,,,cnt_up_down,,,,,,,,
+C:/Users/vycho/Desktop/project/project/project.srcs/sources_1/new/controler_7seg.vhd,1651242176,vhdl,C:/Users/vycho/Desktop/project/project/project.srcs/sources_1/new/bin_to_bcd.vhd,,,controler_7seg,,,,,,,,
+C:/Users/vycho/Desktop/project/project/project.srcs/sources_1/new/frequency_counter.vhd,1651240214,vhdl,,,,frequency_counter,,,,,,,,
+C:/Users/vycho/Desktop/project/project/project.srcs/sources_1/new/number_7seg.vhd,1651242122,vhdl,C:/Users/vycho/Desktop/project/project/project.srcs/sim_1/new/tb_number_7seg.vhd,,,number_7seg,,,,,,,,
