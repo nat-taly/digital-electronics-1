@@ -50,7 +50,7 @@ V tomto bloku jsou vysvětleny jednotlivé moduly. Uvedena je vždy část kódu
 simulace daného design souboru. 
 
 
-###Modul *number_7seg.vhd*
+### Modul *number_7seg.vhd*
 Tento modul překládá číslice 0-9. Vstup má 4 bity (protože pro zobrazení 10 číslic je 
 potřeba 2^4 možností). Vstupní hodnoty jsou převedeny na 7 bitový výstup, 
 který se následně zobrazuje na 7 segmentovém display. 
@@ -84,7 +84,7 @@ end number_7seg;
 * Simulace modulu number_7seg.vhd (soubor tb_number_7seg.vhd)
 ![your figure](images/simulation_number_7seg.png)
 
-###Modul *clock_enable.vhd*
+### Modul *clock_enable.vhd*
 Modul posílá puls každých g_MAX pulsů hlavního bloku. Modul je použit v design 
 souboru *control_7seg.vhd*
 ```vhdl
@@ -105,7 +105,7 @@ end entity clock_enable;
 * Simulace modulu clock_enable.vhd
 ![simulation clock enable](images/simulation_clock_enable.png)
 
-###Modul *cnt_up_down.vhd*
+### Modul *cnt_up_down.vhd*
 Modul počítá hodinové pulsy až do defaultně nastavené hodnoty. Umožňuje čítat 
 jak nahoru, tak i dolů (záleží na cnt_up)
 ```vhdl
@@ -125,7 +125,7 @@ end entity cnt_up_down;
 * Simulace modulu cnt_up_down.vhd
 ![simulation cnt up down](images/simulation_cnt_up_down.png)
 
-###Modul *controler_7seg.vhd*
+### Modul *controler_7seg.vhd*
 Na vstupu tohoto modulu je osm vstupů z nichž je každý 4 bitový.
 Vstup udává binární hodnotu číslice určené pro každý digit (1-8 segmentů).
 
@@ -152,7 +152,7 @@ end entity controler_7seg;
 * Simulace modulu controler_7seg.vhd
 ![simulation controler 7seg](images/simulation_controler_7seg.png)
 
-###Modul *bin_to_bcd.vhd*
+### Modul *bin_to_bcd.vhd*
 Modul umožňuje převod binárního čísla o maximální délce 2^28 bitů na 8 BCD hodnot. 
 Tato hodnota je na vstup modulu přivedena z frekvenčního čítače. 
 V registru dojde k rozdělení těchto 28 bitů na 8 4-bitových vektorů, které jsou následně
@@ -179,7 +179,7 @@ end bin_to_bcd ;
 * Simulace modulu bin_to_bcd.vhd
 ![simulation bin to bcd](images/simulation_bin_to_bcd.png)
 
-Modul *frequency_counter.vhd*
+### Modul *frequency_counter.vhd*
 Write your text here.
 
 <a name="top"></a>
