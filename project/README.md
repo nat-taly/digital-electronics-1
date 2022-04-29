@@ -12,7 +12,7 @@ Responsible for creating testbenches for all designs, simulation all sources. cr
 * Radek Vomocil (Responsible for creating design source frequency counter, creating testbench file. **RADA KDYZTAK NECO PRIDAT**)
 
 Link to your GitHub project folder:
-   [https://github.com/...](https://github.com/...)
+   [https://github.com/...](https://github.com/nat-taly/digital-electronics-1/tree/main/project/project)
 
 
 ### Table of contents
