@@ -64,6 +64,11 @@ end number_7seg;
 * Pravdivostní tabulka pro kombinace na vstupu 0-9. Pokud je na vstupu jiná kombinace, než číslice
 0-9 nic se nezobrazí.
 
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
 |: Číslo :| : Input : | : A : | : B : | : C : | : D : | : E : | : F : | : G : |
 |: ------:| :-------: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 0       |0000       |     0 |     0 |     0 |     0 |     0 |     0 |     1 |
