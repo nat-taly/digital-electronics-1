@@ -64,7 +64,7 @@ end number_7seg;
 * Pravdivostní tabulka pro kombinace na vstupu 0-9. Pokud je na vstupu jiná kombinace, než číslice
 0-9 nic se nezobrazí.
 
-| Číslo | Input | A | B | C | D | E | F | G |
+| : Číslo : | : Input : | : A : | : B : | : C : | : D : | : E : | : F : | : G : |
 |: ---------------:|:----------------:|----|----|----|----|----|----|----|
 | 0 |0000| 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 1 |0001| 1 | 0 | 0 | 1 | 1 | 1 | 1 |
@@ -78,7 +78,7 @@ end number_7seg;
 | 9 |1001| 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 
 * Simulace modulu number_7seg.vhd (soubor tb_number_7seg.vhd)
-![your figure](images/simulation_number_7seg.PNG)
+![your figure](images/simulation_number_7seg.png)
 
 ###Modul *clock_enable.vhd*
 Modul posílá puls každých g_MAX pulsů hlavního bloku. Modul je použit v design 
@@ -99,7 +99,7 @@ entity clock_enable is
 end entity clock_enable;
 ```
 * Simulace modulu clock_enable.vhd
-![simulation clock enable](images/simulation_clock_enable.PNG)
+![simulation clock enable](images/simulation_clock_enable.png)
 
 ###Modul *cnt_up_down.vhd*
 Modul počítá hodinové pulsy až do defaultně nastavené hodnoty. Umožňuje čítat 
@@ -119,7 +119,7 @@ entity cnt_up_down is
 end entity cnt_up_down;
 ```
 * Simulace modulu cnt_up_down.vhd
-![simulation cnt up down](images/simulation_cnt_up_down.PNG)
+![simulation cnt up down](images/simulation_cnt_up_down.png)
 
 ###Modul *controler_7seg.vhd*
 Na vstupu tohoto modulu je osm vstupů z nichž je každý 4 bitový.
@@ -146,7 +146,7 @@ entity controler_7seg is
 end entity controler_7seg;
 ```
 * Simulace modulu controler_7seg.vhd
-![simulation controler 7seg](images/simulation_controler_7seg.PNG)
+![simulation controler 7seg](images/simulation_controler_7seg.png)
 
 ###Modul *bin_to_bcd.vhd*
 Modul umožňuje převod binárního čísla o maximální délce 2^28 bitů na 8 BCD hodnot. 
@@ -173,7 +173,7 @@ entity bin_to_bcd is
 end bin_to_bcd ;
 ```
 * Simulace modulu bin_to_bcd.vhd
-![simulation bin to bcd](images/simulation_bin_to_bcd.PNG)
+![simulation bin to bcd](images/simulation_bin_to_bcd.png)
 
 ###Modul *frequency_counter.vhd*
 Write your text here.
@@ -207,7 +207,7 @@ entity top is
 end entity top;
 ```
 * Schéma modulu top.vhd
-![schematics top.vhd](images/schematics_top.PNG)
+![schematics top.vhd](images/schematics_top.png)
 
 
 <a name="video"></a>
