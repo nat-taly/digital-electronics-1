@@ -3,7 +3,7 @@
 
 * Natalie Vychodilova (Responsible for creating design sources: 
 binary to bcd converter, controller for 8 digits, hex to segment. 
-Responsible for creating testbenches for all designs, simulation all sources. creating schematics and documentation.)
+Responsible for creating testbenches for all designs, simulation all sources. Creating schematics and documentation.)
 
 * Monika Vlkova (Responsible for xxx **MONI DOPSAT**)
 
