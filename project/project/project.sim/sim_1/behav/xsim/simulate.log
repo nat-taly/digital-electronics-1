@@ -1,0 +1,10 @@
+Vivado Simulator 2020.2
+Time resolution is 1 ps
+Note: Stimulus process started
+Time: 0 ps  Iteration: 0  Process: /tb_number_7seg/p_stimulus  File: C:/Users/vycho/Desktop/project/project/project.srcs/sim_1/new/tb_number_7seg.vhd
+Note: Stimulus process started
+Time: 275 ns  Iteration: 0  Process: /tb_number_7seg/p_stimulus  File: C:/Users/vycho/Desktop/project/project/project.srcs/sim_1/new/tb_number_7seg.vhd
+Note: Stimulus process started
+Time: 550 ns  Iteration: 0  Process: /tb_number_7seg/p_stimulus  File: C:/Users/vycho/Desktop/project/project/project.srcs/sim_1/new/tb_number_7seg.vhd
+Note: Stimulus process started
+Time: 825 ns  Iteration: 0  Process: /tb_number_7seg/p_stimulus  File: C:/Users/vycho/Desktop/project/project/project.srcs/sim_1/new/tb_number_7seg.vhd

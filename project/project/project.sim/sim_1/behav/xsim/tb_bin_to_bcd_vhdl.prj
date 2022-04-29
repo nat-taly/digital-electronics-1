@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../project.srcs/sources_1/new/clock_enable.vhd" \
+"../../../../project.srcs/sources_1/new/cnt_up_down.vhd" \
+"../../../../project.srcs/sources_1/new/number_7seg.vhd" \
+"../../../../project.srcs/sources_1/new/controler_7seg.vhd" \
+"../../../../project.srcs/sources_1/new/bin_to_bcd.vhd" \
+"../../../../project.srcs/sim_1/new/tb_bin_to_bcd.vhd" \
+
+# Do not sort compile order
+nosort
