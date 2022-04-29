@@ -1,9 +1,7 @@
 # FREQUENCY COUNTER OF SQUARE AND HARMONIC SIGNAL
 ### Team members
 
-<span style="color:green;font-weight:700;font-size:20px"> 
-markdown color font styles
-</span>
+Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
 
 * Natalie Vychodilova (Responsible for creating design sources: 
 binary to bcd converter, controller for 8 digits, hex to segment. 
