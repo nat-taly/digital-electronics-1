@@ -64,8 +64,8 @@ end number_7seg;
 * Pravdivostní tabulka pro kombinace na vstupu 0-9. Pokud je na vstupu jiná kombinace, než číslice
 0-9 nic se nezobrazí.
 
-| : Číslo : | : Input : | : A : | : B : | : C : | : D : | : E : | : F : | : G : |
-|: ---------------:|:----------------:|----|----|----|----|----|----|----|
+|: Číslo :| : Input : | : A : | : B : | : C : | : D : | : E : | : F : | : G : |
+|: ------:| :-------: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | 0 |0000| 0 | 0 | 0 | 0 | 0 | 0 | 1 |
 | 1 |0001| 1 | 0 | 0 | 1 | 1 | 1 | 1 |
 | 2 |0010| 0 | 0 | 1 | 0 | 0 | 1 | 0 |
@@ -175,7 +175,7 @@ end bin_to_bcd ;
 * Simulace modulu bin_to_bcd.vhd
 ![simulation bin to bcd](images/simulation_bin_to_bcd.png)
 
-###Modul *frequency_counter.vhd*
+Modul *frequency_counter.vhd*
 Write your text here.
 
 <a name="top"></a>
