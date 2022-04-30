@@ -173,6 +173,7 @@ end bin_to_bcd ;
 ### Modul *frequency_counter.vhd*
 **RADA TOHLE JE TEN BLOK, CO JSI DELAL TY, TAK HO POPIS (ZKUS U TOHO MIT STEJNY DESIGN JAK JA**)
 Write your text here.
+![simulation frequency counter](images/simulation_frequency_counter.png)
 
 <a name="top"></a>
 ## TOP module description
