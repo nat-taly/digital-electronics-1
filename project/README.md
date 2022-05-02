@@ -9,7 +9,7 @@ Responsible for creating testbenches for all designs, simulation all sources. Cr
 
 * Peto Kondas (Responsible for xxx **PETO DOPSAT**)
 
-* Radek Vomocil (Responsible for creating design source frequency counter, creating testbench file. **RADA KDYZTAK NECO PRIDAT**)
+* Radek Vomocil (Responsible for creating design source frequency counter, creating testbench file & clock divider)
 
 Link to your GitHub project folder:
    [https://github.com/...](https://github.com/nat-taly/digital-electronics-1/tree/main/project/project)
@@ -171,8 +171,20 @@ end bin_to_bcd ;
 ![simulation bin to bcd](images/simulation_bin_to_bcd.png)
 
 ### Modul *frequency_counter.vhd*
-**RADA TOHLE JE TEN BLOK, CO JSI DELAL TY, TAK HO POPIS (ZKUS U TOHO MIT STEJNY DESIGN JAK JA**)
-Write your text here.
+V modulu frequency_counter čítáme rising edge vstupního signálu, dokud nepřijde rising edge hodin.
+Vstupy tohoto modulu jsou frekvence hodin, měřený signál a reset. Jako výstup máme 27 bitovou frekvenci (2^27 pro zobrazení číslic na všech 8 pozicích) 
+```vhdl
+entity frequency_counter is
+    port (
+        HZ_CLK     : in std_logic;
+        -- measured signal
+        M_SIGNAL    : in std_logic;
+        RESET       : in std_logic;
+        -- max measured value can be 2^16 - 1 => 65535, change the width of the output signal if needed
+        F_OUT       : out std_logic_vector(26 downto 0)
+    );
+end frequency_counter;
+```
 ![simulation frequency counter](images/simulation_frequency_counter.png)
 
 <a name="top"></a>
