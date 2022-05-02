@@ -181,7 +181,7 @@ entity frequency_counter is
         M_SIGNAL    : in std_logic;
         RESET       : in std_logic;
         -- max measured value can be 2^16 - 1 => 65535, change the width of the output signal if needed
-        F_OUT       : out std_logic_vector(26 downto 0)
+        F_OUT       : out std_logic_vector(27 downto 0)
     );
 end frequency_counter;
 ```
