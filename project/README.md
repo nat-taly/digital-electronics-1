@@ -226,4 +226,5 @@ end entity top;
 
 <a name="references"></a>
 ## References
+[Schematics](https://digilent.com/reference/_media/programmable-logic/nexys-a7/nexys-a7-d3-sch.pdf)
 **SEM HODTE ODKAZY, ODKUD JSTE BRALY TY HARDWARE INFORMACE, I TREBA STRANKY KDE JSME NECO ZAJIMAVEHO NASLI**
