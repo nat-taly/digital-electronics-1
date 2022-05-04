@@ -40,10 +40,10 @@ Jako generátor signálu jsme použili osciloskop Keysight DSOX3034T, jehož vý
 bc kabelu připojili na Pmod Headrr JA desky Nexys A7-50T. Uspořádání pinů Pmod headru je 
 zobrazeno na obrázku č. 1.    
 ##### *Obrázok 1. Pmod Porty*
-![uspořádání pinů](pins.png)
+![uspořádání pinů](images/pins.png)
 Signál osciloskopu jsme připojili na pin 1 a uzemnění na gND pin.
 ##### *Obrázok 2. zapojení pracoviště*
-![zapojeni pracoviste](pracoviste.jpg)
+![zapojeni pracoviste](images/pracoviste.jpg)
 
 <a name="modules"></a>
 ## VHDL modules description and simulations
@@ -79,7 +79,7 @@ end number_7seg;
 | 9 |1001| 0 | 0 | 0 | 0 | 1 | 0 | 0 |
 
 * Simulace modulu number_7seg.vhd (soubor tb_number_7seg.vhd)
-![your figure](images/simulation_number_7seg.png)
+![simulation number 7seg](images/simulation_number_7seg.png)
 
 ### Modul *clock_enable.vhd*
 Modul posílá puls každých g_MAX pulsů hlavního bloku. Modul je použit v design 
@@ -227,7 +227,7 @@ end entity top;
 
 <a name="video"></a>
 ## Video
-*[odkaz na video](https://youtu.be/ZYKn0piK8Zw)
+* [odkaz na video](https://youtu.be/ZYKn0piK8Zw)
 
 
 <a name="references"></a>
