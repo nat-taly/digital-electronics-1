@@ -5,9 +5,9 @@
 binary to bcd converter, controller for 8 digits, hex to segment. 
 Responsible for creating testbenches for all designs, simulation all sources. Creating schematics and documentation.)
 
-* Monika Vlkova (Responsible for xxx **MONI DOPSAT**)
+* Monika Vlkova (Responsible for video and hardware desctription)
 
-* Peto Kondas (Responsible for xxx **PETO DOPSAT**)
+* Peto Kondas (Responsible for creating constrains and Hardware description)
 
 * Radek Vomocil (Responsible for creating design source frequency counter, creating testbench file & clock divider)
 
@@ -36,8 +36,14 @@ nahráván na desku Nexys A7-50T. K otestování signálu byl k dispozici oscilo
 
 <a name="hardware"></a>
 ## Hardware description
-Write your text here.
-**PETO MONI NEKDO Z VAS VYTVORIT A UDELAT**
+Jako generátor signálu jsme použili osciloskop Keysight DSOX3034T, jehož výstup jsme pomocí 
+bc kabelu připojili na Pmod Headrr JA desky Nexys A7-50T. Uspořádání pinů Pmod headru je 
+zobrazeno na obrázku č. 1.    
+##### *Obrázok 1. Pmod Porty*
+![uspořádání pinů](pins.png)
+Signál osciloskopu jsme připojili na pin 1 a uzemnění na gND pin.
+##### *Obrázok 2. zapojení pracoviště*
+![zapojeni pracoviste](pracoviste.jpg)
 
 <a name="modules"></a>
 ## VHDL modules description and simulations
@@ -221,10 +227,12 @@ end entity top;
 
 <a name="video"></a>
 ## Video
-**VIDEJKO, PRIPRAVTE SE NA TO, ZE HO BUDETE TOCIT VY (JA NE)**
+*[odkaz na video](https://youtu.be/ZYKn0piK8Zw)
 
 
 <a name="references"></a>
 ## References
 * [Schematics](https://digilent.com/reference/_media/programmable-logic/nexys-a7/nexys-a7-d3-sch.pdf)
-* **SEM HODTE ODKAZY, ODKUD JSTE BRALY TY HARDWARE INFORMACE, I TREBA STRANKY KDE JSME NECO ZAJIMAVEHO NASLI**
+* [Nexys A7 Reference Manual](https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1)
+* [100MHz to 1Hz](https://stackoverflow.com/questions/61878127/clock-divider-in-vhdl-from-100mhz-to-1hz-code)
+* [frequency counter](https://www.reddit.com/r/VHDL/comments/bjga5g/vhdl_frequency_counter/)
