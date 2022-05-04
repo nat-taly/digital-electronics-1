@@ -234,5 +234,3 @@ end entity top;
 ## References
 * [Schematics](https://digilent.com/reference/_media/programmable-logic/nexys-a7/nexys-a7-d3-sch.pdf)
 * [Nexys A7 Reference Manual](https://digilent.com/reference/programmable-logic/nexys-a7/reference-manual?redirect=1)
-* [100MHz to 1Hz](https://stackoverflow.com/questions/61878127/clock-divider-in-vhdl-from-100mhz-to-1hz-code)
-* [frequency counter](https://www.reddit.com/r/VHDL/comments/bjga5g/vhdl_frequency_counter/)
