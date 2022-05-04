@@ -12,7 +12,7 @@ Responsible for creating testbenches for all designs, simulation all sources. Cr
 * Radek Vomocil (Responsible for creating design source frequency counter, creating testbench file & clock divider)
 
 Link to our GitHub project folder:
-   [https://github.com/...]()
+   [https://github.com/...](https://drive.google.com/file/d/11Mp9x1Xms28pFx4qcQ_ANOchQqhS7MEr/view?usp=sharing)
 
 
 ### Table of contents
