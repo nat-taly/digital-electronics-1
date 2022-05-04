@@ -39,10 +39,10 @@ nahráván na desku Nexys A7-50T. K otestování signálu byl k dispozici oscilo
 Jako generátor signálu jsme použili osciloskop Keysight DSOX3034T, jehož výstup jsme pomocí 
 bc kabelu připojili na Pmod Headrr JA desky Nexys A7-50T. Uspořádání pinů Pmod headru je 
 zobrazeno na obrázku č. 1.    
-* *Obrázek 1. Pmod Porty*
-![uspořádání pinů](images/pins.png)
+* Obrázek 1. Pmod Porty
+![pins](images/pins.png)
 Signál osciloskopu jsme připojili na pin 1 a uzemnění na gND pin.
-* *Obrázek 2. zapojení pracoviště*
+* Obrázek 2. zapojení pracoviště
 ![zapojeni pracoviste](images/pracoviste.jpg)
 
 <a name="modules"></a>
